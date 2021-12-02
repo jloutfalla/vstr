@@ -25,7 +25,7 @@ extern "C" {
 #endif /* __cplusplus */
 
 #ifndef VSTRDEF
-  #ifdef VSTR_STATIC
+  #ifdef VSTRDEF_STATIC
     #define VSTRDEF static
   #else
     #define VSTRDEF extern
